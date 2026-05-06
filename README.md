@@ -1,137 +1,152 @@
-📘 Bank Management System (Java Console Application)
+# Banking Management System
 
-A Java console-based application demonstrating core Java and OOP principles, built as a portfolio project for Java Developer positions.
+A console-based Banking Management System developed using Core Java concepts and Object-Oriented Programming principles. This project simulates real-world banking operations such as account creation, deposits, withdrawals, fund transfers, and transaction management.
 
+The project was built as part of a Java learning and practice journey focused on strengthening Core Java fundamentals, clean code structure, exception handling, and banking workflow implementation.
 
-🎯 Project Purpose
+---
 
-This project was created to demonstrate:
+# Features
 
-Strong understanding of Java Core
+- Create new bank accounts
+- Deposit money into accounts
+- Withdraw money securely
+- Transfer funds between accounts
+- View account details
+- Transaction management
+- Input validation and exception handling
+- Menu-driven console interface
+- Organized project structure using OOP concepts
 
-Proper use of Object-Oriented Programming (OOP)
+---
 
-Clean code structure and best practices
+# Technologies Used
 
-Basic testing using JUnit
+- Java
+- Object-Oriented Programming (OOP)
+- Collections Framework
+- Exception Handling
+- File Handling
+- IntelliJ IDEA
+- Git & GitHub
 
-System design visualization using UML
+---
 
+# Project Structure
 
-🧩 Features
-
-Create bank accounts
-
-Deposit money
-
-Withdraw money with balance validation
-
-Display all accounts
-
-Console-based interactive menu
-
-Custom exception handling
-
-Unit testing for core logic
-
-
-🏗 Project Structure
-```
-src
- ├─ model
- │   └─ Account.java
- ├─ service
- │   ├─ BankService.java
- │   └─ BankServiceImpl.java
- ├─ exception
- │   ├─ AccountNotFoundException.java
- │   └─ InsufficientBalanceException.java
- ├─ util
- │   └─ Menu.java
- └─ main
-     └─ MainApp.java
-
-test
- ├─ AccountTest.java
- └─ BankServiceTest.java
-
-docs
- └─ bank-system-uml.png
+```text
+src/
+ ├── model/
+ ├── service/
+ ├── util/
+ ├── exception/
+ └── Main.java
 ```
 
-🧠 OOP Concepts Applied
+---
 
-Encapsulation
-Private fields with public getters and controlled access
+# Core Concepts Implemented
 
-Inheritance
-Custom exceptions extending RuntimeException
+## Object-Oriented Programming
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
 
-Polymorphism
-BankService interface implemented by BankServiceImpl
+## Java Concepts
+- Classes and Objects
+- Collections Framework
+- Exception Handling
+- File Handling
+- Modular Code Structure
 
-Abstraction
-Business logic separated via service layer
+---
 
+# Getting Started
 
-⚙️ Technologies Used
+## Prerequisites
 
-Java 25
+- Java JDK 8 or above
+- IntelliJ IDEA / Eclipse / VS Code
 
-IntelliJ IDEA
+---
 
-JUnit 5
+# Installation
 
-Git & GitHub
+## Clone the repository
 
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+```
 
-🧪 Testing
+## Navigate to project folder
 
-Unit tests are implemented using JUnit 5 following the Arrange – Act – Assert pattern.
+```bash
+cd your-repository-name
+```
 
-Tested Scenarios:
+## Compile and Run
 
-Successful deposit and withdrawal
+```bash
+javac Main.java
+java Main
+```
 
-Exception thrown when withdrawing more than balance
+---
 
-Service layer behavior
+# Sample Functionalities
 
+- Account Creation
+- Balance Inquiry
+- Money Deposit
+- Money Withdrawal
+- Fund Transfer
+- Transaction Processing
 
-📐 UML Diagram
+---
 
-![UML Diagram](docs/BankSystem-UML.drawio.png)
+# Exception Handling
 
-The system design is visualized using a UML Class Diagram:
+The project includes validation and error handling for:
+- Invalid account operations
+- Insufficient balance
+- Invalid input values
+- Transaction-related errors
 
-📁 docs/BankSystem-UML.drawio.png
+---
 
+# Learning Outcomes
 
-▶️ How to Run the Project
+Through this project, I gained hands-on experience with:
+- Building structured Java applications
+- Designing banking workflows
+- Applying OOP concepts in real-world scenarios
+- Managing application flow using services and models
+- Writing clean and maintainable Java code
+- Using Git and GitHub for version control
 
-Clone the repository
+---
 
-Open the project in IntelliJ IDEA
+# Future Improvements
 
-Run MainApp.java
+Potential enhancements for future versions:
+- Database integration
+- Graphical User Interface (GUI)
+- Authentication system
+- Interest calculation system
+- Transaction history persistence
+- REST API integration using Spring Boot
 
-Follow the console menu instructions
+---
 
+# Author
 
-🚀 Future Improvements
+Karan Chhabda
 
-Add persistence using a database
+B.Tech Student | Java Backend Developer
 
-Convert the project to Spring Boot REST API
+---
 
-Add logging
+# License
 
-Improve input validation
-
-Add more unit tests
-
-
-👨‍💻 Author
-
-Ali Al-Jalo
-Java Developer (Backend)
+This project is developed for educational and learning purposes.
