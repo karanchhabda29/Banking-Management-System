@@ -5,7 +5,8 @@ import service.BankServiceImpl;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
 public class BankServiceTest {
-    @Test
+
+        @Test
         void createAccount_shouldStoreAccount() {
         BankService bankService = new BankServiceImpl();
 
